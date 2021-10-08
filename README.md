@@ -17,7 +17,7 @@
 
 使用 `/function cmg:start` 来开始游戏；  
 使用 `/function cmg:stop` 来停止游戏；  
-使用 `/function cmg:enable_explosion` 来启用过大自爆模式；
+使用 `/function cmg:enable_explosion` 来启用过大自爆模式；  
 使用 `/function cmg:disable_explosion` 来停用过大自爆模式。
 
 注意每有一名新玩家加入**已经开始**的游戏后，都需要再次使用 `/function cmg:start` 来重新开始游戏或者 `/function cmg:enable_explosion` 来重新启用过大自爆模式。
