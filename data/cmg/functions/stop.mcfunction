@@ -14,5 +14,8 @@ scoreboard objectives remove DamageDealt
 # 玩家死亡触发器
 scoreboard objectives remove DeathTrigger
 
+# 设置过大自爆标志
+scoreboard objectives remove Explosion
+
 # 游戏停用
 setblock 0 1 0 minecraft:chain_command_block

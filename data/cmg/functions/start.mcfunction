@@ -19,5 +19,6 @@ scoreboard players set @a DamageDealt 0
 scoreboard objectives add DeathTrigger minecraft.custom:minecraft.deaths "死亡计数"
 scoreboard players set @a DeathTrigger 0
 
-# 游戏启用
-setblock 0 1 0 minecraft:command_block
+# 设置过大自爆标志
+scoreboard objectives add Explosion dummy "过大自爆标志"
+scoreboard players set @a Explosion 0

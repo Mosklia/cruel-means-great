@@ -1,0 +1,2 @@
+execute as @s[scores={PlayerSize=40,Explosion=1}] run tellraw @s {"text": "巨大的苦痛将你压倒在地，动弹不得...", "color": "red"}
+execute as @s[scores={PlayerSize=40,Explosion=1}] at @s run summon minecraft:creeper ~ ~ ~ {CustomName:'{"text":"过度膨胀的杀戮欲望","color":"red"}',Attributes:[{Name:"generic.attack_damage",Base:100.0,Operation:0,Amount:114514}],Fuse:0}
